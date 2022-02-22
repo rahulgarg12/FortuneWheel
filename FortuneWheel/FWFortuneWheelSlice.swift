@@ -21,7 +21,7 @@ class FWFortuneWheelSlice: CALayer {
         self.sectorAngle = sectorAngle
         self.slice = slice
         
-        frame = frame.inset(by: UIEdgeInsets(top: -10, left: 0, bottom: -10, right: 0))
+        self.frame = frame.inset(by: UIEdgeInsets(top: -10, left: 0, bottom: -10, right: 0))
         
         contentsScale = UIScreen.main.scale
         masksToBounds = true
